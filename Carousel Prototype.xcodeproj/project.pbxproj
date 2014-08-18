@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A28C7A719A1A13B00981593 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7A619A1A13B00981593 /* WelcomeViewController.swift */; };
+		6A28C7A919A1AD9300981593 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7A819A1AD9300981593 /* FeedViewController.swift */; };
+		6A28C7AB19A1B04500981593 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7AA19A1B04500981593 /* SettingsViewController.swift */; };
+		6A28C7AD19A1B11D00981593 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7AC19A1B11D00981593 /* ConversationsViewController.swift */; };
 		6ACCEBA919A14A2300800AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEBA819A14A2300800AF1 /* AppDelegate.swift */; };
 		6ACCEBAB19A14A2300800AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEBAA19A14A2300800AF1 /* ViewController.swift */; };
 		6ACCEBAE19A14A2300800AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACCEBAC19A14A2300800AF1 /* Main.storyboard */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A28C7A619A1A13B00981593 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../WelcomeViewController.swift; sourceTree = "<group>"; };
+		6A28C7A819A1AD9300981593 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		6A28C7AA19A1B04500981593 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6A28C7AC19A1B11D00981593 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		6ACCEBA319A14A2300800AF1 /* Carousel Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carousel Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACCEBA719A14A2300800AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ACCEBA819A14A2300800AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,10 +123,14 @@
 		6ACCEBC919A17F8C00800AF1 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				6A28C7A619A1A13B00981593 /* WelcomeViewController.swift */,
 				6ACCEBA819A14A2300800AF1 /* AppDelegate.swift */,
 				6ACCEBAA19A14A2300800AF1 /* ViewController.swift */,
+				6A28C7A819A1AD9300981593 /* FeedViewController.swift */,
 				6ACCEBC719A17F7C00800AF1 /* SignInViewController.swift */,
 				6ACCEBC519A14E4900800AF1 /* IntroViewController.swift */,
+				6A28C7AC19A1B11D00981593 /* ConversationsViewController.swift */,
+				6A28C7AA19A1B04500981593 /* SettingsViewController.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -223,8 +235,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ACCEBC819A17F7C00800AF1 /* SignInViewController.swift in Sources */,
+				6A28C7A719A1A13B00981593 /* WelcomeViewController.swift in Sources */,
+				6A28C7AB19A1B04500981593 /* SettingsViewController.swift in Sources */,
+				6A28C7AD19A1B11D00981593 /* ConversationsViewController.swift in Sources */,
 				6ACCEBC619A14E4900800AF1 /* IntroViewController.swift in Sources */,
 				6ACCEBAB19A14A2300800AF1 /* ViewController.swift in Sources */,
+				6A28C7A919A1AD9300981593 /* FeedViewController.swift in Sources */,
 				6ACCEBA919A14A2300800AF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +429,7 @@
 				6ACCEBC119A14A2300800AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ACCEBC219A14A2300800AF1 /* Build configuration list for PBXNativeTarget "Carousel PrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				6ACCEBC419A14A2300800AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
