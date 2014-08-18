@@ -45,7 +45,7 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
         
         introScrollView.sendSubviewToBack(introImageView)
         
-        
+        scrollViewDidScroll(introScrollView)
 
         // Do any additional setup after loading the view.
     }

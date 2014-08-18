@@ -11,6 +11,8 @@
 		6A28C7A919A1AD9300981593 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7A819A1AD9300981593 /* FeedViewController.swift */; };
 		6A28C7AB19A1B04500981593 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7AA19A1B04500981593 /* SettingsViewController.swift */; };
 		6A28C7AD19A1B11D00981593 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7AC19A1B11D00981593 /* ConversationsViewController.swift */; };
+		6A28C7AF19A1BE7D00981593 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7AE19A1BE7D00981593 /* SignUpViewController.swift */; };
+		6A28C7B119A1C6E700981593 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A28C7B019A1C6E700981593 /* TermsViewController.swift */; };
 		6ACCEBA919A14A2300800AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEBA819A14A2300800AF1 /* AppDelegate.swift */; };
 		6ACCEBAB19A14A2300800AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEBAA19A14A2300800AF1 /* ViewController.swift */; };
 		6ACCEBAE19A14A2300800AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACCEBAC19A14A2300800AF1 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 		6A28C7A819A1AD9300981593 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		6A28C7AA19A1B04500981593 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6A28C7AC19A1B11D00981593 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		6A28C7AE19A1BE7D00981593 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6A28C7B019A1C6E700981593 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		6ACCEBA319A14A2300800AF1 /* Carousel Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carousel Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACCEBA719A14A2300800AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ACCEBA819A14A2300800AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				6ACCEBC719A17F7C00800AF1 /* SignInViewController.swift */,
 				6ACCEBC519A14E4900800AF1 /* IntroViewController.swift */,
 				6A28C7AC19A1B11D00981593 /* ConversationsViewController.swift */,
+				6A28C7AE19A1BE7D00981593 /* SignUpViewController.swift */,
+				6A28C7B019A1C6E700981593 /* TermsViewController.swift */,
 				6A28C7AA19A1B04500981593 /* SettingsViewController.swift */,
 			);
 			name = Swift;
@@ -238,8 +244,10 @@
 				6A28C7A719A1A13B00981593 /* WelcomeViewController.swift in Sources */,
 				6A28C7AB19A1B04500981593 /* SettingsViewController.swift in Sources */,
 				6A28C7AD19A1B11D00981593 /* ConversationsViewController.swift in Sources */,
+				6A28C7B119A1C6E700981593 /* TermsViewController.swift in Sources */,
 				6ACCEBC619A14E4900800AF1 /* IntroViewController.swift in Sources */,
 				6ACCEBAB19A14A2300800AF1 /* ViewController.swift in Sources */,
+				6A28C7AF19A1BE7D00981593 /* SignUpViewController.swift in Sources */,
 				6A28C7A919A1AD9300981593 /* FeedViewController.swift in Sources */,
 				6ACCEBA919A14A2300800AF1 /* AppDelegate.swift in Sources */,
 			);

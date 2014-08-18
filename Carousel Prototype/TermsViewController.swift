@@ -1,5 +1,5 @@
 //
-//  ConversationsViewController.swift
+//  TermsViewController.swift
 //  Carousel Prototype
 //
 //  Created by Belinda Preno on 8/17/14.
@@ -8,10 +8,17 @@
 
 import UIKit
 
-class ConversationsViewController: UIViewController {
-
+class TermsViewController: UIViewController {
+    @IBOutlet weak var termsWebView: UIWebView!
+    @IBOutlet weak var closeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let url = NSURL(string: "https://www.dropbox.com/terms2014")
+        let request = NSURLRequest(URL: url)
+        termsWebView.loadRequest(request)
+
 
         // Do any additional setup after loading the view.
     }
@@ -21,8 +28,8 @@ class ConversationsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onBackButton(sender: AnyObject) {
-        navigationController.popViewControllerAnimated(true)
+    @IBAction func onCloseButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
     /*

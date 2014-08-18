@@ -24,9 +24,9 @@ class SettingsViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        scrollView.contentInset.top = 0
+        scrollView.contentInset.top = 64
         scrollView.contentInset.bottom = 50
-        scrollView.scrollIndicatorInsets.top = 0
+        scrollView.scrollIndicatorInsets.top = 64
         scrollView.scrollIndicatorInsets.bottom = 50
     }
 
@@ -41,15 +41,5 @@ class SettingsViewController: UIViewController {
          dismissViewControllerAnimated(true, completion: nil)
     }
     
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
