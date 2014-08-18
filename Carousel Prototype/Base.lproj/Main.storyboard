@@ -69,7 +69,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="0vu-fT-aNP" kind="push" id="Jrv-B2-zUf"/>
+                                            <segue destination="0vu-fT-aNP" kind="push" identifier="SignUpSegue" id="Jrv-B2-zUf"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -333,7 +333,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="vXZ-lx-hvc" kind="modal" animates="NO" id="ydm-FN-hef"/>
+                                            <segue destination="wlo-um-gCp" kind="modal" identifier="SignOutSegue" id="Inl-Lb-euC"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -642,7 +642,6 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="xxJ-ua-RXH"/>
-        <segue reference="Loq-Tz-1o3"/>
+        <segue reference="PH9-wb-Or6"/>
     </inferredMetricsTieBreakers>
 </document>

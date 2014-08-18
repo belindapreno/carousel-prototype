@@ -75,7 +75,7 @@ class SignInViewController: UIViewController {
             delay(2, closure: {
                 loadingView.dismissWithClickedButtonIndex(0, animated: true)
                 
-                if (self.emailTextField.text != "user" || self.passwordTextField.text != "letmein") {
+                if (self.emailTextField.text != "tim@codepath.com" || self.passwordTextField.text != "letmein") {
                     
                     invalidCredentials.show()
                     
