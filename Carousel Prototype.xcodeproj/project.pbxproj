@@ -13,6 +13,7 @@
 		6ACCEBB019A14A2300800AF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACCEBAF19A14A2300800AF1 /* Images.xcassets */; };
 		6ACCEBBC19A14A2300800AF1 /* Carousel_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEBBB19A14A2300800AF1 /* Carousel_PrototypeTests.swift */; };
 		6ACCEBC619A14E4900800AF1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEBC519A14E4900800AF1 /* IntroViewController.swift */; };
+		6ACCEBC819A17F7C00800AF1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCEBC719A17F7C00800AF1 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6ACCEBBA19A14A2300800AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ACCEBBB19A14A2300800AF1 /* Carousel_PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_PrototypeTests.swift; sourceTree = "<group>"; };
 		6ACCEBC519A14E4900800AF1 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		6ACCEBC719A17F7C00800AF1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,10 @@
 		6ACCEBA519A14A2300800AF1 /* Carousel Prototype */ = {
 			isa = PBXGroup;
 			children = (
-				6ACCEBA819A14A2300800AF1 /* AppDelegate.swift */,
-				6ACCEBAA19A14A2300800AF1 /* ViewController.swift */,
+				6ACCEBC919A17F8C00800AF1 /* Swift */,
 				6ACCEBAC19A14A2300800AF1 /* Main.storyboard */,
 				6ACCEBAF19A14A2300800AF1 /* Images.xcassets */,
 				6ACCEBA619A14A2300800AF1 /* Supporting Files */,
-				6ACCEBC519A14E4900800AF1 /* IntroViewController.swift */,
 			);
 			path = "Carousel Prototype";
 			sourceTree = "<group>";
@@ -110,6 +110,17 @@
 				6ACCEBBA19A14A2300800AF1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ACCEBC919A17F8C00800AF1 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6ACCEBA819A14A2300800AF1 /* AppDelegate.swift */,
+				6ACCEBAA19A14A2300800AF1 /* ViewController.swift */,
+				6ACCEBC719A17F7C00800AF1 /* SignInViewController.swift */,
+				6ACCEBC519A14E4900800AF1 /* IntroViewController.swift */,
+			);
+			name = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACCEBC819A17F7C00800AF1 /* SignInViewController.swift in Sources */,
 				6ACCEBC619A14E4900800AF1 /* IntroViewController.swift in Sources */,
 				6ACCEBAB19A14A2300800AF1 /* ViewController.swift in Sources */,
 				6ACCEBA919A14A2300800AF1 /* AppDelegate.swift in Sources */,
